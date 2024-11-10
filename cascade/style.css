@@ -18,12 +18,6 @@ body {
     font-weight: 800;
   }
   
-  .button {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-  }
-  
   .button,
   #confirm {
     background: green;
@@ -37,6 +31,12 @@ body {
     background: white;
     color: black;
   } 
+
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
   
   div.text {
     color: rgb(0, 0, 0);
