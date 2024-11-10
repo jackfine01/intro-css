@@ -19,17 +19,17 @@ body {
   }
   
   .button,
-  #confirm {
-    background: green;
-    color: white;
-    font-weight: bold;
-  } 
-
-  .button,
   #cancel 
   {
     background: white;
     color: black;
+  } 
+
+  .button,
+  #confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
   } 
 
   .button {
