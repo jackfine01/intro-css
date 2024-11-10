@@ -23,12 +23,15 @@ body {
     color: rgb(0, 0, 0);
     font-size: 20px;
   }
-
+  
+  .button,
   #confirm {
     background: green;
     color: white;
     font-weight: bold;
   } 
+
+  .button,
   #cancel 
   {
     background: white;
