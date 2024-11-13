@@ -14,6 +14,7 @@ body {
     font-size: 16px;
     margin: 8px;
     padding: 16px;
+    border: 8px solid #eee;
   }
   
   .content {
@@ -23,8 +24,10 @@ body {
   
   .button-container {
     background: #e3f4ff;
-    margin-left:  24px;
+    margin-left:  8px;
+    margin-right:  8px;
     padding: 16px;
+    border: 8px solid #eee;
   }
   
   button {
