@@ -36,7 +36,7 @@
     list-style-type: none;
     padding: 4px 32px;
     align-items: center;
-    align-items: center;
+    gap: 10px;
   }
   
   a {
