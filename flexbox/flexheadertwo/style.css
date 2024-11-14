@@ -25,6 +25,8 @@ body {
   height: 48px;
   display: flex;
   flex: 0 0 auto; 
+  align-self: flex-end;
+  gap: 4px;
 }
 
 .logo {
@@ -44,6 +46,7 @@ button {
   padding: 8px 24px;
   display: flex;
   flex: 0 0 auto;
+  align-self: flex-end;
 }
 
 a {
