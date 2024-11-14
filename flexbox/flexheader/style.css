@@ -32,9 +32,11 @@
 
   ul {
     /* this removes the dots on the list items*/
+    display: flex;
     list-style-type: none;
     padding: 4px 32px;
-    margin: auto;
+    align-items: center;
+    align-items: center;
   }
   
   a {
