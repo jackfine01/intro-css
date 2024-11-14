@@ -19,6 +19,7 @@ body {
     display: flex;
     width: 200px;
     padding: 8px;
+    flex-wrap: wrap;
   }
 
   .iheader{
