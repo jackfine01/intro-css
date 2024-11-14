@@ -1,3 +1,7 @@
+*{
+    border: 1px;
+}
+
 .header  {
     font-family: monospace;
     background: papayawhip;
@@ -20,7 +24,6 @@
   {
     display: flex;
     justify-content: space-evenly;
-    margin: auto;
   }
 
   .left-links{
