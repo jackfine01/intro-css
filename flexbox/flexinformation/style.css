@@ -18,6 +18,11 @@ body {
   .text{
     display: flex;
   }
+
+  .iheader{
+    display: flex;
+    justify-content: center;
+  }
   
   .ibody{
     display: flex;
