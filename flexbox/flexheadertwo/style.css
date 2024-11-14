@@ -15,7 +15,6 @@ body {
   padding: 8px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .profile-image {
@@ -27,6 +26,7 @@ body {
   display: flex;
   flex: 0 0 auto; 
   gap: 4px;
+  margin-right: auto;
 }
 
 .logo {
@@ -46,6 +46,7 @@ button {
   padding: 8px 24px;
   display: flex;
   flex: 0 0 auto;
+  margin-right: auto;
 }
 
 a {
