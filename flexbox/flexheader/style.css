@@ -17,6 +17,7 @@
     background: white;
     padding: 4px 32px;
     display: flex;
+    flex-basis: auto;
   }
 
   .left-links,
