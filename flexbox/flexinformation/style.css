@@ -18,6 +18,7 @@ body {
   .text{
     display: flex;
     width: 200px;
+    padding: 8px;
   }
 
   .iheader{
