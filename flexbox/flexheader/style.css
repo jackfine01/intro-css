@@ -12,7 +12,7 @@
     color: tomato;
     background: white;
     padding: 4px 32px;
-    margin: auto;
+    display: flex;
   }
 
   .left-links,
