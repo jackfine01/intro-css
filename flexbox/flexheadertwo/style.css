@@ -24,8 +24,7 @@ body {
   width: 48px;
   height: 48px;
   display: flex;
-  flex: 0 0 auto; 
-  justify-self: flex-end;
+  flex: 1 0 auto; 
   gap: 4px;
 }
 
@@ -45,8 +44,7 @@ button {
   color: white;
   padding: 8px 24px;
   display: flex;
-  flex: 0 0 auto;
-  justify-self: flex-end;
+  flex: 1 0 auto;
 }
 
 a {
