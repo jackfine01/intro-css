@@ -14,7 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   padding: 8px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -25,7 +25,8 @@ body {
   width: 48px;
   height: 48px;
   display: flex;
-  flex: 0 0 auto;
+  flex: 0 0 auto; 
+  justify-content: flex-end;
 }
 
 .logo {
@@ -45,6 +46,7 @@ button {
   padding: 8px 24px;
   display: flex;
   flex: 0 0 auto;
+  justify-content: flex-end;
 }
 
 a {
@@ -58,4 +60,5 @@ ul {
   padding: 8px;
   display: flex;
   flex: 0 0 auto;
+  gap: 4px;
 }
