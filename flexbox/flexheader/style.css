@@ -1,52 +1,25 @@
-*{
-    border: 1px;
+.header  {
+  font-family: monospace;
+  background: papayawhip;
 }
 
-.header  {
-    font-family: monospace;
-    background: papayawhip;
-    display: flex;
-    justify-content: space-evenly;
-    border: 10px white;
-  }
-  
-  .logo {
-    font-size: 48px;
-    font-weight: 900;
-    color: tomato;
-    background: white;
-    padding: 4px 32px;
-    display: flex;
-    flex-basis: auto;
-  }
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
 
-  .left-links,
-  .right-links
-  {
-    display: flex;
-    justify-content: space-evenly;
-  }
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+}
 
-  .left-links{
-    just: flex-start;
-  }
-  .right-links{
-    align-items: flex-end;
-  }
-
-  ul {
-    /* this removes the dots on the list items*/
-    display: flex;
-    list-style-type: none;
-    padding: 4px 32px;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  a {
-    font-size: 22px;
-    background: white;
-    padding: 8px;
-    /* this removes the line under the links */
-    text-decoration: none;
-  }
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
