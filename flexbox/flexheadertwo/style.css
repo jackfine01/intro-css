@@ -24,6 +24,7 @@ body {
   width: 48px;
   height: 48px;
   flex: 0 0 auto;
+  align-self: center;
 }
 
 .logo {
@@ -41,6 +42,7 @@ button {
   color: white;
   padding: 8px 24px;
   flex: 0 0 auto;
+  align-self: center;
 }
 
 a {
@@ -61,6 +63,6 @@ ul {
 {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     gap: 16px;
 }
