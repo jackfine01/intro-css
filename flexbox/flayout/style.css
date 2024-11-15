@@ -13,6 +13,8 @@ body {
     color: white;
     text-align: left;
     padding: 16px;
+    font-size: 32px;
+    font-weight: 900;
   }
   
   .footer {
