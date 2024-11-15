@@ -35,17 +35,14 @@ footer,
   flex-direction: row;
 }
 
-.header,
 .footer
 {
   justify-content: space-between;
   padding: 16px;
-  flex: 1 1 auto;
 }
 .left-links,
 .right-links
 {
-  flex: 0 0 auto;
   gap: 8px;
 }
 .content{
@@ -53,4 +50,10 @@ footer,
   flex-direction: column;
   justify-content: center;
   align-content: center;
+}
+
+.header
+{
+  justify-content: space-between;
+  padding: 16px;
 }
