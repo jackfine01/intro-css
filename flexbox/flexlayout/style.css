@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 img {
@@ -23,4 +26,31 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+.header,
+footer,
+.left-links,
+.right-links{
+  display: flex;
+  flex-direction: row;
+}
+
+.header,
+.footer
+{
+  justify-content: space-between;
+  padding: 16px;
+  flex: 1 1 auto;
+}
+.left-links,
+.right-links
+{
+  flex: 0 0 auto;
+  gap: 8px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
