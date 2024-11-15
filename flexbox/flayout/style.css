@@ -11,12 +11,15 @@ body {
     height: 72px;
     background: darkmagenta;
     color: white;
+    text-align: left;
+    padding: 16px;
   }
   
   .footer {
     height: 72px;
     background: #eee;
     color: darkmagenta;
+    text-align: center;
   }
   
   .sidebar {
