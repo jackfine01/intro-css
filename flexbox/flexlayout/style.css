@@ -70,3 +70,7 @@ a {
   font-weight: bold;
   color: grey;
 }
+
+.buttons{
+  margin: 16px;
+}
