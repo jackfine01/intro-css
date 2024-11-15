@@ -16,6 +16,11 @@ img {
 
 ul {
   list-style-type: none;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 16px;
 }
 
 button {
@@ -23,6 +28,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 16px;
 }
 
 input {
@@ -57,9 +63,4 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.buttons{
-  padding-top: 16px;
-  gap: 8px;
 }
