@@ -7,7 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-content: space-between;
 }
 
 img {
@@ -35,7 +35,8 @@ footer,
   flex-direction: row;
 }
 
-.footer
+.footer,
+.header
 {
   justify-content: space-between;
   padding: 16px;
@@ -50,10 +51,4 @@ footer,
   flex-direction: column;
   justify-content: center;
   align-content: center;
-}
-
-.header
-{
-  justify-content: space-between;
-  padding: 16px;
 }
