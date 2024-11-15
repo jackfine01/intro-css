@@ -59,3 +59,7 @@ input {
   align-items: center;
 }
 
+.buttons{
+  padding-top: 16px;
+  gap: 8px;
+}
