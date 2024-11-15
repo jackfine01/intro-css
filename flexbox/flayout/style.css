@@ -34,7 +34,7 @@ body {
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
-    flex: 1 0 auto;
+    flex: 0 1 auto;
     padding: 16px;
   }
   
@@ -43,6 +43,9 @@ body {
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
     flex: 0 0 auto;
+    width: 300px;
+    padding: 8px;
+    margin: 8px;
   }
   
 .content{
@@ -56,4 +59,5 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 48px;
+    flex: 1 1 auto;
 }
