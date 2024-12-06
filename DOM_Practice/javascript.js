@@ -8,20 +8,33 @@ container.appendChild(content);
 
 const para = document.createElement("p");
 para.classList.add("paragraph");
-p.style.color = "red";
-para.textContent("Hey, I'm red!");
+para.style.color = "red";
+para.textContent = "Hey, I'm red!"
 
 container.appendChild(para);
 
 const threehead = document.createElement("h3");
 threehead.classList.add("threehead");
-h3.style.color = "blue";
-threehead.textContent("I'm a blue h3!");
+threehead.style.color = "blue";
+threehead.textContent = "I'm a blue h3!"
 
 container.appendChild(threehead);
 
 const blackdiv = document.createElement("div");
 blackdiv.classList.add("blackdiv");
-div.style.color = "black";
+blackdiv.style.borderBlockColor = "black";
+blackdiv.style.backgroundColor = "pink";
 
 container.appendChild(blackdiv);
+
+const anotherheader = document.createElement("h1");
+anotherheader.classList.add("anotherheader");
+anotherheader.textContent = "I'm in a div."
+
+blackdiv.appendChild(anotherheader);
+
+const anotherParagraph = document.createElement("p");
+anotherParagraph.classList.add("anotherParagraph");
+anotherParagraph.textContent = "ME TOO!"
+
+blackdiv.appendChild(anotherParagraph);
